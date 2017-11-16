@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<flow-build plugin="workflow-job@2.12.2">
+  <actions>
+    <hudson.model.CauseAction>
+      <causeBag class="linked-hash-map">
+        <entry>
+          <hudson.triggers.TimerTrigger_-TimerTriggerCause/>
+          <int>1</int>
+        </entry>
+      </causeBag>
+    </hudson.model.CauseAction>
+  </actions>
+  <queueId>6</queueId>
+  <timestamp>1510870260384</timestamp>
+  <startTime>1510870260393</startTime>
+  <result>FAILURE</result>
+  <duration>3230</duration>
+  <keepLog>false</keepLog>
+  <checkouts class="hudson.util.PersistedList"/>
+</flow-build>

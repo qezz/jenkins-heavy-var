@@ -1,0 +1,13 @@
+Started by timer
+java.lang.NullPointerException
+	at hudson.Util.getDigestOf(Util.java:804)
+	at jenkins.plugins.git.AbstractGitSCMSource.getCacheEntry(AbstractGitSCMSource.java:1181)
+	at jenkins.plugins.git.GitSCMFileSystem$BuilderImpl.build(GitSCMFileSystem.java:293)
+	at jenkins.scm.api.SCMFileSystem.of(SCMFileSystem.java:196)
+	at jenkins.scm.api.SCMFileSystem.of(SCMFileSystem.java:172)
+	at org.jenkinsci.plugins.workflow.cps.CpsScmFlowDefinition.create(CpsScmFlowDefinition.java:99)
+	at org.jenkinsci.plugins.workflow.cps.CpsScmFlowDefinition.create(CpsScmFlowDefinition.java:59)
+	at org.jenkinsci.plugins.workflow.job.WorkflowRun.run(WorkflowRun.java:263)
+	at hudson.model.ResourceController.execute(ResourceController.java:97)
+	at hudson.model.Executor.run(Executor.java:405)
+Finished: FAILURE
