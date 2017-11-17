@@ -1,0 +1,11 @@
+commit 90aea1a4ce608b30ef980157ce35f0324353abcc
+tree 7e3106c9ee9467507fecc944c3d3391a56e2e326
+parent 6bc857ba302f4eb358cefd3c290756b0bdceac20
+author Sergey Mishin <sergei.a.mishin@gmail.com> 2017-11-17 04:03:04 +0300
+committer Sergey Mishin <sergei.a.mishin@gmail.com> 2017-11-17 04:03:04 +0300
+
+    Trying to make script work [2]
+
+
+
+:100644 100644 6a90eb435a9935908698840d535db347fa438265 7c62acccb43f0380bf0de32c54d9831af2639f9f M	mishin.sergey/Jenkinsfile

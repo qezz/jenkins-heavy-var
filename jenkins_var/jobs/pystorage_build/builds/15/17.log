@@ -1,0 +1,3 @@
+[pystorage_build] Running shell script
++ python3 -m unittest -v
+/var/jenkins_home/workspace/pystorage_build@tmp/durable-a09da6e2/script.sh: 2: /var/jenkins_home/workspace/pystorage_build@tmp/durable-a09da6e2/script.sh: python3: not found

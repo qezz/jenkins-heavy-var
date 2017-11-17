@@ -1,0 +1,3 @@
+[pystorage_build] Running shell script
++ git clone https://github.com/Polytech-DevOps-Course-2017/docker_demo.git
+fatal: destination path 'docker_demo' already exists and is not an empty directory.

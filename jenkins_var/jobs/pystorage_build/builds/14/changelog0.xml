@@ -1,0 +1,23 @@
+commit 440fa764d8b63ff2f0320df2f239f17736dafd5a
+tree b359147cb3852bafcc25336ae0f5dddaa0429c2c
+parent 8de96d31e006fb82fa55e9f263871c3b2fd58e09
+author Sergey Mishin <sergei.a.mishin@gmail.com> 2017-11-17 03:59:50 +0300
+committer Sergey Mishin <sergei.a.mishin@gmail.com> 2017-11-17 03:59:50 +0300
+
+    Fix typo in Jenkinsfile
+
+
+
+:100644 100644 de430e05f8ab349f4e388a70d419771526786dfe 7617761c2a5dba41e9fe221ea8585ea7d93768d1 M	mishin.sergey/Jenkinsfile
+commit 8de96d31e006fb82fa55e9f263871c3b2fd58e09
+tree 1ad327ebd9ac7d83d285fca58f230bca71c82397
+parent 6f0e8e074bd396b1ad90d99dbf664ade6364d2b0
+author Sergey Mishin <sergei.a.mishin@gmail.com> 2017-11-17 03:58:40 +0300
+committer Sergey Mishin <sergei.a.mishin@gmail.com> 2017-11-17 03:58:40 +0300
+
+    WIP update
+
+
+
+:100644 100644 7ee13e81c88dd4d5f11f225848f208bc434c2a16 d66e55c91215d515d2b2fce1a6299a932f0ce5d0 M	mishin.sergey/Dockerfile
+:100644 100644 4a0660acd24cda27f5a9422047805ee147e1ac24 de430e05f8ab349f4e388a70d419771526786dfe M	mishin.sergey/Jenkinsfile

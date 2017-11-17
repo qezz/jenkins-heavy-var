@@ -1,0 +1,3 @@
+[pystorage_build] Running shell script
++ [ -d docker_demo ]
++ rm -rf docker_demo

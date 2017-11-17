@@ -1,0 +1,5 @@
+[pystorage_build] Running shell script
++ [ -d docker_demo ]
++ rm -rf docker_demo
++ cd docker_demo/mishin.sergey/pystorage-composed
+/var/jenkins_home/workspace/pystorage_build@tmp/durable-b6b9c22b/script.sh: 9: cd: can't cd to docker_demo/mishin.sergey/pystorage-composed

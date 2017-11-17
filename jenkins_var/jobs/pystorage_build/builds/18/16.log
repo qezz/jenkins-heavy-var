@@ -1,0 +1,3 @@
+[pystorage_build] Running shell script
++ cd docker_demo
+/var/jenkins_home/workspace/pystorage_build@tmp/durable-3e70a9a0/script.sh: 2: cd: can't cd to docker_demo
