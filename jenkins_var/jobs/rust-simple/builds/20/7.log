@@ -1,0 +1,13 @@
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/qezz/jenkins_demo # timeout=10
+Fetching upstream changes from https://github.com/qezz/jenkins_demo
+ > git --version # timeout=10
+ > git fetch --tags --progress https://github.com/qezz/jenkins_demo +refs/heads/*:refs/remotes/origin/*
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision bd64e85445f7f5db66ddd7df77261de43cea295b (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f bd64e85445f7f5db66ddd7df77261de43cea295b
+Commit message: "add two more simple stages to Jenkinsfile"
+ > git rev-list 080d2399caab6a62cae448b6dd09e4930050680c # timeout=10

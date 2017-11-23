@@ -1,0 +1,4 @@
+[rust-simple] Running shell script
++ cd mishin.sergey/meaningless-app/
++ /root/.cargo/bin/cargo doc
+error: cannot document a package where a library and a binary have the same name. Consider renaming one or marking the target as `doc = false`

@@ -1,0 +1,11 @@
+commit ff86c241bb84054ef1e97306f1ee15e64a1b4604
+tree 8bd8ef81f696e81a11f20c3fdca5883f88dc4f69
+parent f9199ef0a7f3800f9d396f4b840a182a78119e48
+author Sergey Mishin <sergei.a.mishin@gmail.com> 2017-11-17 11:08:14 +0300
+committer Sergey Mishin <sergei.a.mishin@gmail.com> 2017-11-17 11:08:14 +0300
+
+    Fix repo and project location
+
+
+
+:100644 100644 ff63230804b9be35099e75fc47807952b13ffe95 4f5e1c5e0c2d188eb9f43aac19765b48ccddd4c2 M	mishin.sergey/meaningless-app/Jenkinsfile

@@ -1,0 +1,11 @@
+commit 080d2399caab6a62cae448b6dd09e4930050680c
+tree 9c7a8316e4231ca4890b558c6c003c3ba08f9c4c
+parent eaffc6f19128e05df5bf087d0e9b9883e61d59c1
+author Sergey Mishin <sergei.a.mishin@gmail.com> 2017-11-17 22:39:19 +0300
+committer Sergey Mishin <sergei.a.mishin@gmail.com> 2017-11-17 22:39:19 +0300
+
+    Fix tests run
+
+
+
+:100644 100644 15dbc63cc36ffb3a3feb40a387061d8ee0ab143f 40e40aaf494f51592c236110372543b6097d9aa7 M	mishin.sergey/meaningless-app/Jenkinsfile

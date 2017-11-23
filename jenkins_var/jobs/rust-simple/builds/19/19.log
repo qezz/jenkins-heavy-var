@@ -1,0 +1,6 @@
+[rust-simple] Running shell script
++ cd mishin.sergey/meaningless-app/
++ /root/.cargo/bin/cargo clean
++ /root/.cargo/bin/cargo build
+   Compiling meaningless-app v0.1.0 (file:///var/jenkins_home/workspace/rust-simple/mishin.sergey/meaningless-app)
+    Finished dev [unoptimized + debuginfo] target(s) in 9.12 secs

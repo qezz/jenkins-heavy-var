@@ -1,0 +1,13 @@
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/qezz/jenkins_demo # timeout=10
+Fetching upstream changes from https://github.com/qezz/jenkins_demo
+ > git --version # timeout=10
+ > git fetch --tags --progress https://github.com/qezz/jenkins_demo +refs/heads/*:refs/remotes/origin/*
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision 080d2399caab6a62cae448b6dd09e4930050680c (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 080d2399caab6a62cae448b6dd09e4930050680c
+Commit message: "Fix tests run"
+ > git rev-list eaffc6f19128e05df5bf087d0e9b9883e61d59c1 # timeout=10

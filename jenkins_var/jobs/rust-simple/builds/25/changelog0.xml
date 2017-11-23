@@ -1,0 +1,11 @@
+commit 30ae15aac49d541684b113cd16a934035bd2a570
+tree 5595de1a76c510149299e41cce5a9d5b38394122
+parent b6410b9052e5a4a3013947451fd8909dbed6b5fa
+author Sergey Mishin <sergei.a.mishin@gmail.com> 2017-11-24 01:24:05 +0300
+committer Sergey Mishin <sergei.a.mishin@gmail.com> 2017-11-24 01:24:05 +0300
+
+    wip
+
+
+
+:100644 100644 27ce6046c77f789761b6d5d0c0cfcf98fded2ba0 b1cec3349bdc773f6b232c1afd234c737218b773 M	mishin.sergey/meaningless-app/Cargo.toml

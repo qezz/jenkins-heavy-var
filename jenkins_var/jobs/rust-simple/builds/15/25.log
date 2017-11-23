@@ -1,0 +1,3 @@
+[rust-simple] Running shell script
++ /root/.cargo/bin/cargo test -v
+error: could not find `Cargo.toml` in `/var/jenkins_home/workspace/rust-simple` or any parent directory

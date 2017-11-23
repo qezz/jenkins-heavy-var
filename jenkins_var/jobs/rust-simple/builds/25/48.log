@@ -1,0 +1,8 @@
+[rust-simple] Running shell script
++ cd mishin.sergey/meaningless-app/
++ /root/.cargo/bin/cargo run --release
+    Finished release [optimized] target(s) in 0.1 secs
+     Running `target/release/meaningless-app`
+Hello, world!
+a + b: Point { x: 234, y: 101 }
+a_plus_b(a, b): Point { x: 234, y: 101 }

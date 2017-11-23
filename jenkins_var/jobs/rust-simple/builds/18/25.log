@@ -1,0 +1,28 @@
+[rust-simple] Running shell script
++ cd mishin.sergey/meaningless-app/
++ /root/.cargo/bin/cargo test -v
+   Compiling meaningless-app v0.1.0 (file:///var/jenkins_home/workspace/rust-simple/mishin.sergey/meaningless-app)
+     Running `rustc --crate-name meaningless_app src/lib.rs --emit=dep-info,link -C debuginfo=2 --test -C metadata=36f5c773e0b94d8c -C extra-filename=-36f5c773e0b94d8c --out-dir /var/jenkins_home/workspace/rust-simple/mishin.sergey/meaningless-app/target/debug/deps -L dependency=/var/jenkins_home/workspace/rust-simple/mishin.sergey/meaningless-app/target/debug/deps`
+     Running `rustc --crate-name meaningless_app src/main.rs --emit=dep-info,link -C debuginfo=2 --test -C metadata=dfbfeff9f31141b8 -C extra-filename=-dfbfeff9f31141b8 --out-dir /var/jenkins_home/workspace/rust-simple/mishin.sergey/meaningless-app/target/debug/deps -L dependency=/var/jenkins_home/workspace/rust-simple/mishin.sergey/meaningless-app/target/debug/deps --extern meaningless_app=/var/jenkins_home/workspace/rust-simple/mishin.sergey/meaningless-app/target/debug/deps/libmeaningless_app-bb0bd6dacffd7391.rlib`
+    Finished dev [unoptimized + debuginfo] target(s) in 3.80 secs
+     Running `/var/jenkins_home/workspace/rust-simple/mishin.sergey/meaningless-app/target/debug/deps/meaningless_app-36f5c773e0b94d8c`
+
+running 2 tests
+test tests::add_two_numbers_with_generic_function ... ok
+test tests::it_works ... ok
+
+test result: ok. 2 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out
+
+     Running `/var/jenkins_home/workspace/rust-simple/mishin.sergey/meaningless-app/target/debug/deps/meaningless_app-dfbfeff9f31141b8`
+
+running 0 tests
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out
+
+   Doc-tests meaningless-app
+     Running `rustdoc --test /var/jenkins_home/workspace/rust-simple/mishin.sergey/meaningless-app/src/lib.rs --crate-name meaningless_app -L dependency=/var/jenkins_home/workspace/rust-simple/mishin.sergey/meaningless-app/target/debug/deps --extern meaningless_app=/var/jenkins_home/workspace/rust-simple/mishin.sergey/meaningless-app/target/debug/deps/libmeaningless_app-bb0bd6dacffd7391.rlib`
+
+running 0 tests
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out
+

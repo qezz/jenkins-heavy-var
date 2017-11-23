@@ -1,0 +1,11 @@
+commit f9199ef0a7f3800f9d396f4b840a182a78119e48
+tree 2896d5eacb776bfbce459fdae0281bf59479b1ea
+parent c168e806555e3e6d411b8915090dfcd837b1513f
+author Sergey Mishin <sergei.a.mishin@gmail.com> 2017-11-17 11:06:04 +0300
+committer Sergey Mishin <sergei.a.mishin@gmail.com> 2017-11-17 11:06:04 +0300
+
+    Fix cargo call
+
+
+
+:100644 100644 8e245b6b30f9e30409966472c632832b31423d9b ff63230804b9be35099e75fc47807952b13ffe95 M	mishin.sergey/meaningless-app/Jenkinsfile

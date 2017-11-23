@@ -1,0 +1,5 @@
+[rust-simple] Running shell script
++ [ -d docker_demo ]
++ rm -rf jenkins_demo
++ git clone https://github.com/qezz/jenkins_demo.git
+Cloning into 'jenkins_demo'...

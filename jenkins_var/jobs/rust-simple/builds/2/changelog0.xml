@@ -1,0 +1,11 @@
+commit c168e806555e3e6d411b8915090dfcd837b1513f
+tree 3a2cce87436cf3821f54ba3ad44319df04e42c85
+parent 6c312ef3eb8caaf9b5d2d8a4652de96b9d851f35
+author Sergey Mishin <sergei.a.mishin@gmail.com> 2017-11-17 11:04:29 +0300
+committer Sergey Mishin <sergei.a.mishin@gmail.com> 2017-11-17 11:04:29 +0300
+
+    Add rut test call
+
+
+
+:100644 100644 18577712d83d674774655d33f3e398ebf099cd8e 8e245b6b30f9e30409966472c632832b31423d9b M	mishin.sergey/meaningless-app/Jenkinsfile

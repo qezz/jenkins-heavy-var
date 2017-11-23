@@ -1,0 +1,6 @@
+[rust-simple] Running shell script
++ [ -d docker_demo ]
++ git clone https://github.com/Polytech-DevOps-Course-2017/docker_demo.git
+Cloning into 'docker_demo'...
++ echo Test..
+Test..

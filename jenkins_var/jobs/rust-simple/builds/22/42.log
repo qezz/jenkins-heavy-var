@@ -1,0 +1,16 @@
+[rust-simple] Running shell script
++ cd mishin.sergey/meaningless-app/
++ ls -la
+total 24
+drwxr-xr-x 10 root root  340 Nov 23 22:16 .
+drwxr-xr-x  6 root root  204 Nov 23 22:09 ..
+-rw-r--r--  1 root root    9 Nov 17 08:02 .gitignore
+-rw-r--r--  1 root root   56 Nov 17 08:02 Cargo.lock
+-rw-r--r--  1 root root  125 Nov 17 08:02 Cargo.toml
+-rw-r--r--  1 root root  458 Nov 17 12:15 Dockerfile
+-rw-r--r--  1 root root 1485 Nov 23 22:15 Jenkinsfile
+-rw-r--r--  1 root root  598 Nov 17 08:02 Makefile
+drwxr-xr-x  4 root root  136 Nov 23 22:09 src
+drwxr-xr-x  3 root root  102 Nov 23 22:16 target
++ /root/.cargo/bin/cargo doc
+error: cannot document a package where a library and a binary have the same name. Consider renaming one or marking the target as `doc = false`

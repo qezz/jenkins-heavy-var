@@ -1,0 +1,173 @@
+Started by timer
+Obtained mishin.sergey/meaningless-app/Jenkinsfile from git https://github.com/qezz/jenkins_demo
+[8mha:////4Pm8okJXhp0WOYPtcHZaveL3APFxdjlB9CSWxt4mw71wAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] node
+Running on [8mha:////4JtxVET7uCJdTPRaIa4Xu0eNdZ/gGrVki4xFhnSIeyqlAAAAnh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZh/eT83ILSktQifY3cxGIgrakPAHib2iPIAAAA[0mJenkins in /var/jenkins_home/workspace/rust-simple
+[8mha:////4Pm8okJXhp0WOYPtcHZaveL3APFxdjlB9CSWxt4mw71wAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] {
+[8mha:////4Pm8okJXhp0WOYPtcHZaveL3APFxdjlB9CSWxt4mw71wAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] stage
+[8mha:////4Pm8okJXhp0WOYPtcHZaveL3APFxdjlB9CSWxt4mw71wAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] { (Declarative: Checkout SCM)
+[8mha:////4Pm8okJXhp0WOYPtcHZaveL3APFxdjlB9CSWxt4mw71wAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] checkout
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/qezz/jenkins_demo # timeout=10
+Fetching upstream changes from https://github.com/qezz/jenkins_demo
+ > git --version # timeout=10
+ > git fetch --tags --progress https://github.com/qezz/jenkins_demo +refs/heads/*:refs/remotes/origin/*
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision 30ae15aac49d541684b113cd16a934035bd2a570 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 30ae15aac49d541684b113cd16a934035bd2a570
+Commit message: "wip"
+ > git rev-list 30ae15aac49d541684b113cd16a934035bd2a570 # timeout=10
+[8mha:////4Pm8okJXhp0WOYPtcHZaveL3APFxdjlB9CSWxt4mw71wAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] }
+[8mha:////4Pm8okJXhp0WOYPtcHZaveL3APFxdjlB9CSWxt4mw71wAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] // stage
+[8mha:////4Pm8okJXhp0WOYPtcHZaveL3APFxdjlB9CSWxt4mw71wAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] withEnv
+[8mha:////4Pm8okJXhp0WOYPtcHZaveL3APFxdjlB9CSWxt4mw71wAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] {
+[8mha:////4Pm8okJXhp0WOYPtcHZaveL3APFxdjlB9CSWxt4mw71wAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] stage
+[8mha:////4Pm8okJXhp0WOYPtcHZaveL3APFxdjlB9CSWxt4mw71wAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] { (Prepare)
+[8mha:////4Pm8okJXhp0WOYPtcHZaveL3APFxdjlB9CSWxt4mw71wAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] sh
+[rust-simple] Running shell script
++ [ -d docker_demo ]
++ rm -rf jenkins_demo
++ git clone https://github.com/qezz/jenkins_demo.git
+Cloning into 'jenkins_demo'...
+[8mha:////4Pm8okJXhp0WOYPtcHZaveL3APFxdjlB9CSWxt4mw71wAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] }
+[8mha:////4Pm8okJXhp0WOYPtcHZaveL3APFxdjlB9CSWxt4mw71wAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] // stage
+[8mha:////4Pm8okJXhp0WOYPtcHZaveL3APFxdjlB9CSWxt4mw71wAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] stage
+[8mha:////4Pm8okJXhp0WOYPtcHZaveL3APFxdjlB9CSWxt4mw71wAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] { (Build (Debug))
+[8mha:////4Pm8okJXhp0WOYPtcHZaveL3APFxdjlB9CSWxt4mw71wAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] sh
+[rust-simple] Running shell script
++ cd mishin.sergey/meaningless-app/
++ /root/.cargo/bin/cargo clean
++ /root/.cargo/bin/cargo build
+   Compiling meaningless-app v0.1.0 (file:///var/jenkins_home/workspace/rust-simple/mishin.sergey/meaningless-app)
+    Finished dev [unoptimized + debuginfo] target(s) in 2.52 secs
+[8mha:////4Pm8okJXhp0WOYPtcHZaveL3APFxdjlB9CSWxt4mw71wAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] }
+[8mha:////4Pm8okJXhp0WOYPtcHZaveL3APFxdjlB9CSWxt4mw71wAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] // stage
+[8mha:////4Pm8okJXhp0WOYPtcHZaveL3APFxdjlB9CSWxt4mw71wAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] stage
+[8mha:////4Pm8okJXhp0WOYPtcHZaveL3APFxdjlB9CSWxt4mw71wAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] { (Test (Debug))
+[8mha:////4Pm8okJXhp0WOYPtcHZaveL3APFxdjlB9CSWxt4mw71wAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] echo
+Testing..
+[rust-simple] Running shell script
+[8mha:////4Pm8okJXhp0WOYPtcHZaveL3APFxdjlB9CSWxt4mw71wAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] sh
++ cd mishin.sergey/meaningless-app/
++ /root/.cargo/bin/cargo test -v
+   Compiling meaningless-app v0.1.0 (file:///var/jenkins_home/workspace/rust-simple/mishin.sergey/meaningless-app)
+     Running `rustc --crate-name meaningless_app src/lib.rs --emit=dep-info,link -C debuginfo=2 --test -C metadata=36f5c773e0b94d8c -C extra-filename=-36f5c773e0b94d8c --out-dir /var/jenkins_home/workspace/rust-simple/mishin.sergey/meaningless-app/target/debug/deps -L dependency=/var/jenkins_home/workspace/rust-simple/mishin.sergey/meaningless-app/target/debug/deps`
+     Running `rustc --crate-name meaningless_app src/main.rs --emit=dep-info,link -C debuginfo=2 --test -C metadata=dfbfeff9f31141b8 -C extra-filename=-dfbfeff9f31141b8 --out-dir /var/jenkins_home/workspace/rust-simple/mishin.sergey/meaningless-app/target/debug/deps -L dependency=/var/jenkins_home/workspace/rust-simple/mishin.sergey/meaningless-app/target/debug/deps --extern meaningless_app=/var/jenkins_home/workspace/rust-simple/mishin.sergey/meaningless-app/target/debug/deps/libmeaningless_app-bb0bd6dacffd7391.rlib`
+    Finished dev [unoptimized + debuginfo] target(s) in 3.96 secs
+     Running `/var/jenkins_home/workspace/rust-simple/mishin.sergey/meaningless-app/target/debug/deps/meaningless_app-36f5c773e0b94d8c`
+
+running 2 tests
+test tests::add_two_numbers_with_generic_function ... ok
+test tests::it_works ... ok
+
+test result: ok. 2 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out
+
+     Running `/var/jenkins_home/workspace/rust-simple/mishin.sergey/meaningless-app/target/debug/deps/meaningless_app-dfbfeff9f31141b8`
+
+running 0 tests
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out
+
+   Doc-tests meaningless-app
+     Running `rustdoc --test /var/jenkins_home/workspace/rust-simple/mishin.sergey/meaningless-app/src/lib.rs --crate-name meaningless_app -L dependency=/var/jenkins_home/workspace/rust-simple/mishin.sergey/meaningless-app/target/debug/deps --extern meaningless_app=/var/jenkins_home/workspace/rust-simple/mishin.sergey/meaningless-app/target/debug/deps/libmeaningless_app-bb0bd6dacffd7391.rlib`
+
+running 0 tests
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out
+
+[8mha:////4Pm8okJXhp0WOYPtcHZaveL3APFxdjlB9CSWxt4mw71wAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] }
+[8mha:////4Pm8okJXhp0WOYPtcHZaveL3APFxdjlB9CSWxt4mw71wAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] // stage
+[8mha:////4Pm8okJXhp0WOYPtcHZaveL3APFxdjlB9CSWxt4mw71wAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] stage
+[8mha:////4Pm8okJXhp0WOYPtcHZaveL3APFxdjlB9CSWxt4mw71wAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] { (Build (Release))
+[8mha:////4Pm8okJXhp0WOYPtcHZaveL3APFxdjlB9CSWxt4mw71wAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] sh
+[rust-simple] Running shell script
++ cd mishin.sergey/meaningless-app/
++ /root/.cargo/bin/cargo clean
++ /root/.cargo/bin/cargo build --release
+   Compiling meaningless-app v0.1.0 (file:///var/jenkins_home/workspace/rust-simple/mishin.sergey/meaningless-app)
+    Finished release [optimized] target(s) in 1.92 secs
+[8mha:////4Pm8okJXhp0WOYPtcHZaveL3APFxdjlB9CSWxt4mw71wAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] }
+[8mha:////4Pm8okJXhp0WOYPtcHZaveL3APFxdjlB9CSWxt4mw71wAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] // stage
+[8mha:////4Pm8okJXhp0WOYPtcHZaveL3APFxdjlB9CSWxt4mw71wAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] stage
+[8mha:////4Pm8okJXhp0WOYPtcHZaveL3APFxdjlB9CSWxt4mw71wAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] { (Test (Release))
+[8mha:////4Pm8okJXhp0WOYPtcHZaveL3APFxdjlB9CSWxt4mw71wAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] echo
+Testing..
+[8mha:////4Pm8okJXhp0WOYPtcHZaveL3APFxdjlB9CSWxt4mw71wAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] sh
+[rust-simple] Running shell script
++ cd mishin.sergey/meaningless-app/
++ /root/.cargo/bin/cargo test -v --release
+   Compiling meaningless-app v0.1.0 (file:///var/jenkins_home/workspace/rust-simple/mishin.sergey/meaningless-app)
+     Running `rustc --crate-name meaningless_app src/lib.rs --emit=dep-info,link -C opt-level=3 --test -C metadata=6de9cb0a17321285 -C extra-filename=-6de9cb0a17321285 --out-dir /var/jenkins_home/workspace/rust-simple/mishin.sergey/meaningless-app/target/release/deps -L dependency=/var/jenkins_home/workspace/rust-simple/mishin.sergey/meaningless-app/target/release/deps`
+     Running `rustc --crate-name meaningless_app src/main.rs --emit=dep-info,link -C opt-level=3 --test -C metadata=8c0a32596105e1cd -C extra-filename=-8c0a32596105e1cd --out-dir /var/jenkins_home/workspace/rust-simple/mishin.sergey/meaningless-app/target/release/deps -L dependency=/var/jenkins_home/workspace/rust-simple/mishin.sergey/meaningless-app/target/release/deps --extern meaningless_app=/var/jenkins_home/workspace/rust-simple/mishin.sergey/meaningless-app/target/release/deps/libmeaningless_app-86d9045af7e77450.rlib`
+    Finished release [optimized] target(s) in 3.6 secs
+     Running `/var/jenkins_home/workspace/rust-simple/mishin.sergey/meaningless-app/target/release/deps/meaningless_app-6de9cb0a17321285`
+
+running 2 tests
+test tests::add_two_numbers_with_generic_function ... ok
+test tests::it_works ... ok
+
+test result: ok. 2 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out
+
+     Running `/var/jenkins_home/workspace/rust-simple/mishin.sergey/meaningless-app/target/release/deps/meaningless_app-8c0a32596105e1cd`
+
+running 0 tests
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out
+
+   Doc-tests meaningless-app
+     Running `rustdoc --test /var/jenkins_home/workspace/rust-simple/mishin.sergey/meaningless-app/src/lib.rs --crate-name meaningless_app -L dependency=/var/jenkins_home/workspace/rust-simple/mishin.sergey/meaningless-app/target/release/deps --extern meaningless_app=/var/jenkins_home/workspace/rust-simple/mishin.sergey/meaningless-app/target/release/deps/libmeaningless_app-86d9045af7e77450.rlib`
+
+running 0 tests
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out
+
+[8mha:////4Pm8okJXhp0WOYPtcHZaveL3APFxdjlB9CSWxt4mw71wAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] }
+[8mha:////4Pm8okJXhp0WOYPtcHZaveL3APFxdjlB9CSWxt4mw71wAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] // stage
+[8mha:////4Pm8okJXhp0WOYPtcHZaveL3APFxdjlB9CSWxt4mw71wAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] stage
+[8mha:////4Pm8okJXhp0WOYPtcHZaveL3APFxdjlB9CSWxt4mw71wAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] { (Docs)
+[8mha:////4Pm8okJXhp0WOYPtcHZaveL3APFxdjlB9CSWxt4mw71wAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] echo
+Generate docs...
+[8mha:////4Pm8okJXhp0WOYPtcHZaveL3APFxdjlB9CSWxt4mw71wAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] sh
+[rust-simple] Running shell script
++ cd mishin.sergey/meaningless-app/
++ ls -la
+total 24
+drwxr-xr-x 10 root root  340 Nov 23 22:37 .
+drwxr-xr-x  6 root root  204 Nov 23 22:09 ..
+-rw-r--r--  1 root root    9 Nov 17 08:02 .gitignore
+-rw-r--r--  1 root root   56 Nov 17 08:02 Cargo.lock
+-rw-r--r--  1 root root  171 Nov 23 22:25 Cargo.toml
+-rw-r--r--  1 root root  458 Nov 17 12:15 Dockerfile
+-rw-r--r--  1 root root 1507 Nov 23 22:20 Jenkinsfile
+-rw-r--r--  1 root root  598 Nov 17 08:02 Makefile
+drwxr-xr-x  4 root root  136 Nov 23 22:09 src
+drwxr-xr-x  3 root root  102 Nov 23 22:37 target
++ /root/.cargo/bin/cargo doc --bin meaningless-app
+   Compiling meaningless-app v0.1.0 (file:///var/jenkins_home/workspace/rust-simple/mishin.sergey/meaningless-app)
+ Documenting meaningless-app v0.1.0 (file:///var/jenkins_home/workspace/rust-simple/mishin.sergey/meaningless-app)
+    Finished dev [unoptimized + debuginfo] target(s) in 1.41 secs
+[8mha:////4Pm8okJXhp0WOYPtcHZaveL3APFxdjlB9CSWxt4mw71wAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] }
+[8mha:////4Pm8okJXhp0WOYPtcHZaveL3APFxdjlB9CSWxt4mw71wAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] // stage
+[8mha:////4Pm8okJXhp0WOYPtcHZaveL3APFxdjlB9CSWxt4mw71wAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] stage
+[8mha:////4Pm8okJXhp0WOYPtcHZaveL3APFxdjlB9CSWxt4mw71wAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] { (Release run)
+[8mha:////4Pm8okJXhp0WOYPtcHZaveL3APFxdjlB9CSWxt4mw71wAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] echo
+Release run,,,
+[rust-simple] Running shell script
+[8mha:////4Pm8okJXhp0WOYPtcHZaveL3APFxdjlB9CSWxt4mw71wAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] sh
++ cd mishin.sergey/meaningless-app/
++ /root/.cargo/bin/cargo run --release
+    Finished release [optimized] target(s) in 0.0 secs
+     Running `target/release/meaningless-app`
+Hello, world!
+a + b: Point { x: 234, y: 101 }
+a_plus_b(a, b): Point { x: 234, y: 101 }
+[8mha:////4Pm8okJXhp0WOYPtcHZaveL3APFxdjlB9CSWxt4mw71wAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] }
+[8mha:////4Pm8okJXhp0WOYPtcHZaveL3APFxdjlB9CSWxt4mw71wAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] // stage
+[8mha:////4Pm8okJXhp0WOYPtcHZaveL3APFxdjlB9CSWxt4mw71wAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] }
+[8mha:////4Pm8okJXhp0WOYPtcHZaveL3APFxdjlB9CSWxt4mw71wAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] // withEnv
+[8mha:////4Pm8okJXhp0WOYPtcHZaveL3APFxdjlB9CSWxt4mw71wAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] }
+[8mha:////4Pm8okJXhp0WOYPtcHZaveL3APFxdjlB9CSWxt4mw71wAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] // node
+[8mha:////4Pm8okJXhp0WOYPtcHZaveL3APFxdjlB9CSWxt4mw71wAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] End of Pipeline
+Finished: SUCCESS

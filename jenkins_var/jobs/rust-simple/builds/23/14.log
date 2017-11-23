@@ -1,0 +1,3 @@
+[rust-simple] Running shell script
++ rustc --version
+/var/jenkins_home/workspace/rust-simple@tmp/durable-e6a43cad/script.sh: 3: /var/jenkins_home/workspace/rust-simple@tmp/durable-e6a43cad/script.sh: rustc: not found

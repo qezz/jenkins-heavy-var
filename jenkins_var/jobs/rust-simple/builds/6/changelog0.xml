@@ -1,0 +1,12 @@
+commit 637d65619d1617741013f38c2fe5eb53fd337843
+tree 58b1b658603a30451c7289a1ff067ada73b1bdc4
+parent ff86c241bb84054ef1e97306f1ee15e64a1b4604
+author Sergey Mishin <sergei.a.mishin@gmail.com> 2017-11-17 15:14:04 +0300
+committer Sergey Mishin <sergei.a.mishin@gmail.com> 2017-11-17 15:14:04 +0300
+
+    Fix little things
+
+
+
+:100644 100644 c8e61d246ab352ab5eb680a053c9240c7ef2d24c 2fee8f8baa955ac73eaf75d2500844f518ed4870 M	mishin.sergey/meaningless-app/Dockerfile
+:100644 100644 4f5e1c5e0c2d188eb9f43aac19765b48ccddd4c2 71bd931d1177478f1ebfd57f0a128952ab4a9d78 M	mishin.sergey/meaningless-app/Jenkinsfile

@@ -1,0 +1,34 @@
+commit bd64e85445f7f5db66ddd7df77261de43cea295b
+tree 824617c903dfcd54c15b9bee6c4b077b624af45c
+parent 7d3a120a94a379026c4664e8e9c157c150d1d34e
+author Sergey Mishin <sergei.a.mishin@gmail.com> 2017-11-24 01:09:17 +0300
+committer Sergey Mishin <sergei.a.mishin@gmail.com> 2017-11-24 01:09:17 +0300
+
+    add two more simple stages to Jenkinsfile
+
+
+
+:100644 100644 40e40aaf494f51592c236110372543b6097d9aa7 0dcb43c5878e0284000165b26d078a7604aae94c M	mishin.sergey/meaningless-app/Jenkinsfile
+commit 7d3a120a94a379026c4664e8e9c157c150d1d34e
+tree 0faf3cbc489374d7100492799ae98bbb7f1771da
+parent 9b124c9b99702f3d682e8e772119d5c33464baba
+author Sergey Mishin <sergei.a.mishin@gmail.com> 2017-11-24 00:56:19 +0300
+committer Sergey Mishin <sergei.a.mishin@gmail.com> 2017-11-24 00:56:19 +0300
+
+    Add simple README
+
+
+
+:000000 100644 0000000000000000000000000000000000000000 a10bc5813225095a7c66a602ab4094822ba94a00 A	mishin.sergey/README.md
+commit 9b124c9b99702f3d682e8e772119d5c33464baba
+tree fda59b0267814723f679fa8dfbf78aef14037ea0
+parent 080d2399caab6a62cae448b6dd09e4930050680c
+author Sergey Mishin <sergei.a.mishin@gmail.com> 2017-11-24 00:55:51 +0300
+committer Sergey Mishin <sergei.a.mishin@gmail.com> 2017-11-24 00:55:51 +0300
+
+    Update rust source
+
+
+
+:100644 100644 4d41c6154bd2460bccabaecb8dc20eec564237f3 03134abe4370e8640ba003f9cf6f650b2f21459e M	mishin.sergey/meaningless-app/src/lib.rs
+:100644 100644 e7a11a969c037e00a796aafeff6258501ec15e9a 09ce16f846c4d27934b23ee8f81d17c2d7eed2a5 M	mishin.sergey/meaningless-app/src/main.rs

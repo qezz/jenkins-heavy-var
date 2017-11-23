@@ -1,0 +1,18 @@
+Cloning the remote Git repository
+Cloning repository https://github.com/qezz/jenkins_demo
+ > git init /var/jenkins_home/workspace/rust-simple # timeout=10
+Fetching upstream changes from https://github.com/qezz/jenkins_demo
+ > git --version # timeout=10
+ > git fetch --tags --progress https://github.com/qezz/jenkins_demo +refs/heads/*:refs/remotes/origin/*
+ > git config remote.origin.url https://github.com/qezz/jenkins_demo # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/qezz/jenkins_demo # timeout=10
+Fetching upstream changes from https://github.com/qezz/jenkins_demo
+ > git fetch --tags --progress https://github.com/qezz/jenkins_demo +refs/heads/*:refs/remotes/origin/*
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision 6c312ef3eb8caaf9b5d2d8a4652de96b9d851f35 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 6c312ef3eb8caaf9b5d2d8a4652de96b9d851f35
+Commit message: "Add stupid rust app"
+First time build. Skipping changelog.
